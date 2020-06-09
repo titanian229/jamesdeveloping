@@ -5,33 +5,75 @@
     padding: 0;
 }
 
-
-
-body {
+/* body {
     background-color: #292928;
-}
+} */
 
 .nav {
     background-color: #3f3f3f;
     color: #e7decd;
     width: 100vw;
+    padding: 5px 0 5px 0;
     margin-bottom: 30px;
     border-bottom: 3px solid #4e4e4b;
     padding-left: 5vw;
     padding-right: 5vw;
+    font-family: VT323;
+    font-size: 2rem;
 }
+
+.nav > a {
+    margin: 10px 10px 10px 10px;
+}
+
+.container {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+
+#header {
+    height: 450px;
+    font-family: Rubik;
+}
+
+
 
 /* #about-me > *{
     margin: 10px;
 } */
 
-#about-me p {
+
+/* #about-me p {
     color: #e7decd;
+} */
+
+#about-me {
+    display: flex;
+    font-family: Quicksand;
+
 }
 
 #about-me img {
-    width: 300px;
+    width: 200px;
     height: auto;
-    border-radius: 100px;
-    float: left;
+    border-radius: 50px;
+    /* float: left; */
+}
+
+#portfolio {
+    width: 100vw;
+}
+
+.project-card {
+    background-size: cover;
+
+
+    outline: 1px solid red;
+
+    width: 200px;
+}
+
+.card-body img {
+    width: 40px;
 }
