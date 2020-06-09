@@ -1,5 +1,7 @@
 
-
+body {
+    font-family: Quicksand;
+}
 
 #header {
     height: 300px;
@@ -9,14 +11,29 @@
     font-weight: 700;
     font-size: 2rem;
 }
-
+/* 
 .card {
-    width: 400px;
+    width: 440px;
+} */
+
+.left-bg {
+    object-position: 0 0;
+}
+
+
+.card-body i {
+    font-size: 4rem;
+    color: black;
+}
+
+.card-body a {
+    font-size: 2rem;
 }
 
 .card-img {
-    width: 400px;
-    opacity: 0.5;
+    /* width: 400px; */
+    object-fit: cover;
+    opacity: 0.7;
 }
 
 .icon {
