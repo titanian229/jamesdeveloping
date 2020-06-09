@@ -47,6 +47,22 @@
     font-family: Rubik;
 }
 
+#about-me p {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    /* line-height: initial; */
+    font-size: 1.5rem;
+}
+
+#about-me p:first-child {
+    text-indent: 60px;
+
+}
+
+.big-text {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
 
 
 /* #about-me > *{
@@ -75,15 +91,44 @@
     width: 100vw;
 }
 
-.project-card {
-    background-size: cover;
-
-
-    outline: 1px solid red;
-
-    width: 200px;
+.card-container {
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
 }
 
-.card-body img {
+.card {
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 0 20px 20px 20px;
+    width: 400px;
+}
+
+.card-head {
+    border-radius: 20px 20px 0 0;
+    height: 300px;
+}
+
+.card-head img {
+    opacity: 0.7;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    left: 0;
+    top: 0;
+    max-width: 400px;
+}
+
+.centered {
+    position: relative;
+    top: 10%;
+    left: 50%
+}
+
+.card-body {
+    padding: 10px 10px 10px 10px;
+}
+
+.icon {
     width: 40px;
 }
