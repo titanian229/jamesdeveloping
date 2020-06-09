@@ -1,0 +1,14 @@
+
+body {
+    background-color: #292928;
+}
+
+.nav {
+    background-color: #2A2A29;
+    color: #E7DECD;
+}
+
+#about-me img {
+    width: 300px;
+    border-radius: 100px;
+}
