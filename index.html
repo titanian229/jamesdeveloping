@@ -52,11 +52,14 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                    <li class="nav-item active">
+                        <a id="about-button" class="nav-link">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Me</a>
+                        <a id="portfolio-button" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="contact-button" class="nav-link">Contact Me</a>
                     </li>
                 </ul>
             </div>
@@ -69,16 +72,16 @@
                     <p>A full stack developer based in Toronto</p>
                 </div>
             </div>
-            <div id="about-me">
+            <div id="about-me" class="mb-4">
                 <div class="row">
-                    <div class="col-9 col-md-3">
+                    <div class="col-9 col-md-3 mb-sm-4">
                         <img
                             src="./assets/images/james.jpg"
                             class="img-responsive"
                             alt="James Lee"
                         />
                     </div>
-                    <div class="col-12 col-md-9 mt-sm-4">
+                    <div class="col-12 col-md-9">
                         <p>
                             <span class="big-text">Hi there!</span>
                             I'm a tech professional, focused on back end software development but
@@ -93,16 +96,31 @@
                             events using the Google Calendar API.
                         </p>
                         <p>
-                            I first encountered programming by exploring it myself, creating software to automate my life and work and improve things I encountered day to day.  Mapping my routes for kayak trips, automating the bulky process of making gCal events, creating android applications to take my programs with me on the go.  I taught myself by exploring MAN pages, reading online documentation, picking apart things and playing with them.  I found my passion in it.  I'm always growing my skillset through courses and online programs, most recently a University of Toronto coding bootcamp.
+                            I first encountered programming by exploring it myself, creating
+                            software to automate my life and work and improve things I encountered
+                            day to day. Mapping my routes for kayak trips, automating the bulky
+                            process of making gCal events, creating android applications to take my
+                            programs with me on the go. I taught myself by exploring MAN pages,
+                            reading online documentation, picking apart things and playing with
+                            them. I found my passion in it. I'm always growing my skillset through
+                            courses and online programs, most recently a University of Toronto
+                            coding bootcamp.
                         </p>
                         <p class="font-italic">
-                            Contact me, and let's see how we can best put my passion to work for you!
+                            Contact me, and let's see how we can best put my passion to work for
+                            you!
                         </p>
+                        <div id="contact-area" class="d-flex flex-wrap justify-content-between">
+                            <a href="./assets/JamesLee.pdf">Download my resume</a>
+                            <a href="https://www.linkedin.com/in/james-lee-852a171a4/"
+                                >Find me on LinkedIn <i class="fab fa-linkedin"></i
+                            ></a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div id="portfolio">
-                <h2 class="mb-2">See some of my work</h2>
+            <div id="portfolio" class="d-none">
+                <h2 class="mb-4">See some of my work</h2>
                 <!-- Have buttons to show and hide this area and also limit it by language -->
                 <!-- add skills / languages section to bio -->
                 <div id="portfolio-cards" class="row d-flex align-items-stretch">
@@ -384,14 +402,8 @@
                     </div>
                 </div>
             </div>
-            <div id="contact-me">
+            <div id="contact-me" class="d-none">
                 <h2 class="mb-3">Get in touch</h2>
-
-                <div id="contact-area">
-                    <a href="https://www.linkedin.com/in/james-lee-852a171a4/"
-                        >Find me on LinkedIn <i class="fab fa-linkedin"></i
-                    ></a>
-                </div>
 
                 <div class="row">
                     <div class="col-xs-12 col-s-12 col-md-10">
@@ -453,6 +465,8 @@
                     <div class="col"></div>
                 </div>
             </div>
+            <hr />
+            <footer class=""></footer>
         </div>
 
         <!-- <script src="./assets/logo.js"></script> -->
