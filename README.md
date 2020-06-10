@@ -8,7 +8,10 @@ The website is a single page, using hidden elements hiding and showing to switch
 
 Here is a video demonstrating all of the functionality and content:
 
-<!-- ![WebpageWalkthrough](https://titanian229.github.io/jamesdeveloping/assets/readmeAssets/JamesLeePersonalPageWalkthrough.webm) -->
-<!-- ![WebpageWalkthrough](https://titanian229.github.io/jamesdeveloping/assets/readmeAssets/JamesLeePersonalPageWalkthrough.gif) -->
+[Jamesdeveloping.ca Demonstration]("https://titanian229.github.io/jamesdeveloping/assets/readmeAssets/JamesLeePersonalPageWalkthrough.webm")
 
-<iframe src="https://drive.google.com/file/d/1GYMl7vZAA-4cHGRMkSeOXkhNOTKYW1Id/preview" width="640" height="480"></iframe>
+
+This might or might not allow me to play this inline depending on platform, link is included above regardless.
+
+![WebpageWalkthrough](https://titanian229.github.io/jamesdeveloping/assets/readmeAssets/JamesLeePersonalPageWalkthrough.webm)
+<!-- ![WebpageWalkthrough](https://titanian229.github.io/jamesdeveloping/assets/readmeAssets/JamesLeePersonalPageWalkthrough.gif) -->
