@@ -9,3 +9,4 @@ The website is a single page, using hidden elements hiding and showing to switch
 Here is a video demonstrating all of the functionality and content:
 
 ![WebpageWalkthrough](https://titanian229.github.io/jamesdeveloping/assets/readmeAssets/JamesLeePersonalPageWalkthrough.webm)
+![WebpageWalkthrough](https://titanian229.github.io/jamesdeveloping/assets/readmeAssets/JamesLeePersonalPageWalkthrough.gif)
