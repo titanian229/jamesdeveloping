@@ -8,10 +8,18 @@ function moveToSection(section) {
     Object.keys(sections).forEach(function (key) {
         if (section === key) {
             if (sections[key].classList.contains("d-none")) {
+                setTimeout(function(){
                 sections[key].classList.remove("d-none");
+                sections[key].classList.remove("animate__animated", "animate__fadeOut", "animate__faster");
+                sections[key].classList.add("animate__animated", "animate__fadeIn", "animate__faster");
+                }, 500)
             }
         } else if (section != key && !sections[key].classList.contains("d-none")) {
-            sections[key].classList.add("d-none");
+            sections[key].classList.remove("animate__animated", "animate__fadeIn", "animate__faster");
+            sections[key].classList.add("animate__animated", "animate__fadeOut", "animate__faster");
+            setTimeout(function () {
+                sections[key].classList.add("d-none");
+            }, 500);
         }
     });
 
