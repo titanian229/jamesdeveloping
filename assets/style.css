@@ -1,0 +1,88 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: Quicksand;
+}
+
+#header {
+    height: calc(100vh - 56px);
+    padding-left: 10rem;
+    animation: shrinkHead 2s ease-in-out 2s forwards;
+}
+
+#line {
+    width: 100%;
+    height: 6px;
+    background-color: #333333;
+}
+
+#spacer {
+    height: 0
+}
+
+/* .container > div:nth-child(n+2) {
+    margin-top: 50px;
+} */
+
+.big-text {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-right: 0.6rem;
+}
+/* 
+.card {
+    width: 440px;
+} */
+
+.left-bg {
+    object-position: 0 0;
+}
+
+.offset-bg {
+    object-position: -9rem 0;
+}
+
+.card-body i {
+    font-size: 4rem;
+    color: black;
+}
+
+.card-body a {
+    font-size: 2rem;
+}
+
+.card-img {
+    /* width: 400px; */
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+.icon {
+    width: 40px;
+}
+
+#about-me img {
+    width: 100%;
+    border-radius: 50px;
+}
+
+#contact-area {
+    font-size: 1.1rem;
+}
+
+@keyframes shrinkHead {
+    0% {
+    }
+    100% {
+        height: 260px;
+        background-color: #ccd8ff;
+    }
+}
+
+@media all and (max-width: 500px){
+    #header {
+        padding-left: 5rem;
+    }
+}
