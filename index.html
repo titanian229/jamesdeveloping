@@ -22,6 +22,17 @@
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
             crossorigin="anonymous"
         ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"
+        ></script>
+
         <meta property="og:title" content="James Lee" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://titanian229.github.io/homework08/index.html" />
@@ -52,27 +63,27 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a id="about-button" class="nav-link">About Me</a>
+                    <li class="nav-item">
+                        <a id="about-button" class="nav-link active" href="#about-me">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a id="portfolio-button" class="nav-link">Portfolio</a>
+                        <a id="portfolio-button" class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a id="contact-button" class="nav-link">Contact Me</a>
+                        <a id="contact-button" class="nav-link" href="#contact-me">Contact Me</a>
                     </li>
                 </ul>
             </div>
         </nav>
         <div class="container">
-            <div id="header">
-                <div>
+            <div id="header" class="d-flex">
+                <div class="align-self-center">
                     <h1>Hi,</h1>
                     <h1>I'm james</h1>
                     <p>A full stack developer based in Toronto</p>
                 </div>
             </div>
-            <div id="about-me" class="mb-4">
+            <div id="about-me">
                 <div class="row">
                     <div class="col-9 col-md-3 mb-sm-4">
                         <img
@@ -465,8 +476,14 @@
                     <div class="col"></div>
                 </div>
             </div>
-            <hr />
-            <footer class=""></footer>
+            <footer class="mb-4 mt-5">
+                <div class="container">
+                    <hr />
+                    <p>
+                        Made by James Lee | &copy; 2020
+                    </p>
+                </div>
+            </footer>
         </div>
 
         <!-- <script src="./assets/logo.js"></script> -->

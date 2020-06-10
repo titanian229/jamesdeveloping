@@ -1,20 +1,24 @@
-html {
+/* html {
     scroll-behavior: smooth;
-  }
-
+  } */
 
 body {
     font-family: Quicksand;
 }
 
 #header {
-    height: 300px;
+    height: calc(100vh - 56px);
+    padding-left: 10rem;
+    /* animation: shrinkHead 5s ease-in-out 4s forwards; */
 }
 
-.container > div {
+#spacer {
+    height: 0
+}
+
+/* .container > div:nth-child(n+2) {
     margin-top: 50px;
-}
-
+} */
 
 .big-text {
     font-weight: 700;
@@ -33,7 +37,6 @@ body {
 .offset-bg {
     object-position: -9rem 0;
 }
-
 
 .card-body i {
     font-size: 4rem;
@@ -61,4 +64,18 @@ body {
 
 #contact-area {
     font-size: 1.1rem;
+}
+
+@keyframes shrinkHead {
+    0% {
+    }
+    100% {
+        height: 260px;
+    }
+}
+
+@media all and (max-width: 500px){
+    #header {
+        padding-left: 5rem;
+    }
 }
