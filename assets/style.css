@@ -1,12 +1,27 @@
+:root {
+    --bg: #111111;
+    --highlight: #e56a6c;
+    --section-bg: #343a40;
+    --text: #e5e5e5;
+}
+
 html {
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 body {
     font-family: Quicksand;
-    background-color: #292929;
-    color: #E5E5E5
+    background-color: var(--bg);
+    /* background-color: #292929; */
+    color: var(--text);
 }
+
+footer {
+    height: 80px;
+    /* background: var(--highlight); */
+}
+
 
 #header {
     /* height: calc(100vh - 56px); */
@@ -27,9 +42,16 @@ body {
     height: 0;
 }
 
+#about-col {
+    background-color: var(--section-bg);
+    /* padding: 0 0 10px 0; */
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
 /* #navbar { */
-    /* transform: translateY(-60px); */
-    /* height: 40px; */
+/* transform: translateY(-60px); */
+/* height: 40px; */
 
 /* } */
 
@@ -41,7 +63,7 @@ body {
     font-weight: 700;
     font-size: 2rem;
     margin-right: 0.6rem;
-    color: blue;
+    color: var(--highlight);
 }
 /* 
 .card {
@@ -54,6 +76,10 @@ body {
 
 .offset-bg {
     object-position: -9rem 0;
+}
+
+.card {
+    box-shadow: 2px 2px 4px var(--text) !important;
 }
 
 .card-body i {
@@ -77,7 +103,9 @@ body {
 
 #about-me img {
     width: 100%;
-    border-radius: 50px;
+    border-radius: 10px;
+    /* border: 1px solid var(--text); */
+    box-shadow: 2px 2px 4px var(--section-bg);
 }
 
 #contact-area {
@@ -91,7 +119,7 @@ body {
     }
     100% {
         height: 260px;
-        color: blue;
+        color: var(--highlight);
         /* color: #e5e5e5; */
         background-color: #121212;
     }

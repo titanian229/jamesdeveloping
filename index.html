@@ -52,17 +52,19 @@
         <link rel="stylesheet" href="./assets/style.css" />
         <title>James Lee</title>
     </head>
-    <body>
-        <div id="header" class="d-flex">
-            <div class="align-self-center animate__animated animate__bounceInUp">
-                <h1>hi,</h1>
-                <h1>I'm james lee</h1>
-                <!-- <p>A full stack developer based in Toronto</p> -->
+    <body class="d-flex flex-column h-100">
+        <div id="header">
+            <div class="container d-flex h-100">
+                <div class="align-self-center animate__animated animate__bounceInUp">
+                    <h1>hi,</h1>
+                    <h1>I'm james lee</h1>
+                    <!-- <p>A full stack developer based in Toronto</p> -->
+                </div>
             </div>
         </div>
         <nav id="navbar" class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand mr-4" style="color: blue;">JL</a>
+                <a class="navbar-brand mr-4" style="color: var(--highlight);">JL</a>
                 <!-- <a class="navbar-brand" href="#">James T Lee</a> -->
                 <button
                     class="navbar-toggler"
@@ -102,11 +104,11 @@
                             alt="James Lee"
                         />
                     </div>
-                    <div class="col-12 col-md-9">
+                    <div id="about-col" class="col-12 col-md-9">
                         <p>
                             <span class="big-text">Hi there!</span>
-                            I'm a full stack developer, based in Toronto.  I'm focused on back end software development but
-                            growing my front end experience.
+                            I'm a full stack developer, based in Toronto. I'm focused on back end
+                            software development but growing my front end experience.
                         </p>
                         <p>
                             I'm proficient in Python, particularly using Numpy and SciPy. I'm
@@ -132,10 +134,10 @@
                             you!
                         </p>
                         <div id="contact-area" class="d-flex flex-wrap justify-content-between">
-                            <a href="./assets/JamesLee.pdf">Download my resume</a>
                             <a href="https://www.linkedin.com/in/james-lee-852a171a4/"
                                 >Find me on LinkedIn <i class="fab fa-linkedin"></i
                             ></a>
+                            <a href="./assets/JamesLee.pdf">Download my resume</a>
                         </div>
                     </div>
                 </div>
@@ -184,7 +186,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 mb-4">
-                        <div class="card text-light bg-dark h-100 shadow">
+                        <div class="card text-light bg-dark h-100">
                             <div class="row no-gutters h-100">
                                 <div class="col-3">
                                     <img
@@ -220,7 +222,7 @@
                     </div>
 
                     <div class="col-12 col-lg-6 mb-4">
-                        <div class="card text-light bg-dark h-100 shadow">
+                        <div class="card text-light bg-dark h-100">
                             <div class="row no-gutters h-100">
                                 <div class="col-3">
                                     <img
@@ -260,7 +262,7 @@
                     </div>
 
                     <div class="col-12 col-lg-6 mb-4">
-                        <div class="card text-light bg-dark h-100 shadow">
+                        <div class="card text-light bg-dark h-100">
                             <div class="row no-gutters h-100">
                                 <div class="col-3">
                                     <img
@@ -299,7 +301,7 @@
                     </div>
 
                     <div class="col-12 col-lg-6 mb-4">
-                        <div class="card text-light bg-dark h-100 shadow">
+                        <div class="card text-light bg-dark h-100">
                             <div class="row no-gutters h-100">
                                 <div class="col-3">
                                     <img
@@ -337,7 +339,7 @@
                     </div>
 
                     <div class="col-12 col-lg-6 mb-4">
-                        <div class="card text-light bg-dark h-100 shadow">
+                        <div class="card text-light bg-dark h-100">
                             <div class="row no-gutters h-100">
                                 <div class="col-3">
                                     <img
@@ -376,7 +378,7 @@
                     </div>
 
                     <div class="col-12 col-lg-6 mb-4">
-                        <div class="card text-light bg-dark h-100 shadow">
+                        <div class="card text-light bg-dark h-100">
                             <div class="row no-gutters h-100">
                                 <div class="col-3">
                                     <img
@@ -410,7 +412,7 @@
                     </div>
 
                     <div class="col-12 col-lg-6 mb-4">
-                        <div class="card text-light bg-dark h-100 shadow">
+                        <div class="card text-light bg-dark h-100">
                             <div class="row no-gutters h-100">
                                 <div class="col-3">
                                     <img
@@ -517,15 +519,15 @@
                     <div class="col"></div>
                 </div> -->
             </div>
-            <footer class="mb-4 mt-5">
-                <div class="container">
-                    <hr />
-                    <p>
-                        Made by James Lee | &copy; 2020
-                    </p>
-                </div>
-            </footer>
         </div>
+        <footer class="mt-auto">
+            <div class="container">
+                <hr />
+                <p>
+                    Made by James Lee | &copy; 2020
+                </p>
+            </div>
+        </footer>
 
         <!-- <script src="./assets/logo.js"></script> -->
         <script src="./assets/script.js"></script>
