@@ -1,0 +1,56 @@
+:root {
+    /* Palette 2 */
+    --b1: hsl(209, 51%, 68%);
+    --b2: hsl(205, 43%, 55%);
+    --b3: hsl(202, 53%, 42%);
+    --b4: hsl(199, 85%, 30%);
+    --b5: hsl(203, 74%, 29%);
+    --b6: hsl(209, 61%, 28%);
+    --b7: hsl(219, 49%, 27%);
+    --g1: hsl(178, 91%, 34%);
+    --p1: hsl(261, 54%, 10%);
+}
+
+body {
+    background-color: var(--p1);
+}
+
+.floating-space {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+
+}
+
+.project-card {
+    /* max-width: 300px; */
+    width: 43%;
+    min-width: 400px;
+    height: 300px;
+    margin: 1.4rem;
+    /* border: 1px solid black; */
+    padding: 1rem;
+    border-radius: 0.6rem;
+    border-top: 6px solid var(--b4);
+    box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+
+    background-color: var(--b3);
+    color: var(--b1)
+}
+
+.card-title {
+    /* background-color: hsl(209, 51%, 95%); */
+    background-color: var(--b1);
+    margin-top: -1rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+
+    text-align: center;
+    line-height: 2;
+    font-size: 2rem;
+    border-bottom: 2px solid var(--b4);
+    margin-bottom: 1rem;
+
+    color: var(--p1)
+}

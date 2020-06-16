@@ -7,9 +7,9 @@ function moveToSection(section) {
 
     Object.keys(sections).forEach(function (key) {
         if (section === key) {
-            if (sections[key].classList.contains("d-none")) {
+            if (sections[key].style.display == "none") {
                 setTimeout(function () {
-                    sections[key].classList.remove("d-none");
+                    sections[key].style.display = "block";
                     sections[key].classList.remove(
                         "animate__animated",
                         "animate__fadeOut",
@@ -22,7 +22,7 @@ function moveToSection(section) {
                     );
                 }, 500);
             }
-        } else if (section != key && !sections[key].classList.contains("d-none")) {
+        } else if (section != key && sections[key].style.display != "none") {
             sections[key].classList.remove(
                 "animate__animated",
                 "animate__fadeIn",
@@ -30,7 +30,7 @@ function moveToSection(section) {
             );
             sections[key].classList.add("animate__animated", "animate__fadeOut", "animate__faster");
             setTimeout(function () {
-                sections[key].classList.add("d-none");
+                sections[key].style.display = "none";
             }, 500);
         }
     });
@@ -57,9 +57,9 @@ const fonts = [
     "Roboto",
 ];
 function cycleFont() {
-    fontI = (fontI + 1) % fonts.length
+    fontI = (fontI + 1) % fonts.length;
     document.querySelector("body").style.fontFamily = fonts[fontI];
-    console.log(fonts[fontI])
+    console.log(fonts[fontI]);
 }
 
 function toggleButtons(buttonI) {
