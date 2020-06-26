@@ -15,3 +15,7 @@ This might or might not allow me to play this inline depending on platform, link
 
 ![WebpageWalkthrough](https://titanian229.github.io/jamesdeveloping/assets/readmeAssets/JamesLeePersonalPageWalkthrough.webm)
 <!-- ![WebpageWalkthrough](https://titanian229.github.io/jamesdeveloping/assets/readmeAssets/JamesLeePersonalPageWalkthrough.gif) -->
+
+TODO IDEAS
+
+Have portfolio and skills areas populate from a db that I can add to
