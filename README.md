@@ -10,8 +10,3 @@ Here is a video demonstrating all of the functionality and content:
 
 [Jamesdeveloping.ca Demonstration]("https://titanian229.github.io/jamesdeveloping/assets/readmeAssets/JamesLeePersonalPageWalkthrough.webm")
 
-
-This might or might not allow me to play this inline depending on platform, link is included above regardless.
-
-![WebpageWalkthrough](https://titanian229.github.io/jamesdeveloping/assets/readmeAssets/JamesLeePersonalPageWalkthrough.webm)
-<!-- ![WebpageWalkthrough](https://titanian229.github.io/jamesdeveloping/assets/readmeAssets/JamesLeePersonalPageWalkthrough.gif) -->
