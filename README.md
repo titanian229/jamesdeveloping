@@ -6,7 +6,4 @@ It's mobile first, and looks good on both small and large viewports.  It uses su
 
 The website is a single page, using hidden elements hiding and showing to switch between the About, Portfolio, and Contact sections.  It includes a brief bio state, several examples of my work, and contact information including my LinkedIn profile and GitHub profile.
 
-Here is a video demonstrating all of the functionality and content:
-
-[Jamesdeveloping.ca Demonstration]("https://titanian229.github.io/jamesdeveloping/assets/readmeAssets/JamesLeePersonalPageWalkthrough.webm")
 
